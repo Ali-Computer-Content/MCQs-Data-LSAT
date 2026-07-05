@@ -1,0 +1,100 @@
+1::If all judges are lawyers and some lawyers are professors, which must be true?::Some judges are professors::All lawyers are judges::All judges are lawyers::No professors are judges::C::The first premise directly states that all judges are lawyers.
+2::All A are B. All B are C. Therefore::All C are A::Some A are C::All A are C::No A are C::C::Transitive reasoning: A ⟶ B ⟶ C.
+3::If no poets are engineers and some engineers are managers, which must be true?::Some managers are poets::No poets are managers::Some managers are engineers::All managers are engineers::C::The premise explicitly states some engineers are managers.
+4::Every successful applicant submitted an essay. Dana submitted an essay. Therefore::Dana was successful::Dana may or may not have been successful::Dana was not successful::No conclusion possible beyond Dana submitted an essay::B::Submitting an essay is necessary, not sufficient.
+5::If either X or Y attends, the meeting occurs. The meeting did not occur. Therefore::X attended::Y attended::Neither X nor Y attended::Both attended::C::Contrapositive of (X or Y) → Meeting.
+6::All contracts require consideration. This agreement lacks consideration. Therefore::It is not a contract::It is illegal::It is unenforceable::It may still be a contract::A::Contrapositive: if not consideration, then not a contract.
+7::Some voters are taxpayers. All taxpayers are citizens. Therefore::All voters are citizens::Some voters are citizens::All citizens are taxpayers::Some citizens are not taxpayers::B::Those voters who are taxpayers must be citizens.
+8::No reptiles are warm-blooded. Snakes are reptiles. Therefore::Snakes are mammals::Snakes are not warm-blooded::Some snakes are warm-blooded::All warm-blooded animals are mammals::B::Follows directly from the premises.
+9::If a law is unconstitutional, courts may strike it down. Law L was struck down. Therefore::L was unconstitutional::L may have been unconstitutional but not necessarily::L was constitutional::Courts never err::B::Affirming the consequent is invalid.
+10::All clerks are employees. No contractors are employees. Therefore::No contractors are clerks::All employees are clerks::Some clerks are contractors::All contractors are employees::A::Clerks fall within employees; contractors are excluded.
+11::A cause must precede its effect. Event A caused Event B. Therefore::A occurred before B::B occurred before A::A and B were simultaneous::No timing conclusion follows::A::Direct application of the rule.
+12::If the witness is credible, the jury may convict. The witness is credible. Therefore::The jury must convict::The jury may convict::The jury acquitted::The witness lied::B::The premise grants possibility, not certainty.
+13::Every square is a rectangle. No circles are rectangles. Therefore::No squares are circles::Some circles are squares::All rectangles are squares::Some squares are circles::A::Squares belong to rectangles; circles do not.
+14::Some books are rare. All rare books are valuable. Therefore::Some books are valuable::All books are valuable::No books are valuable::Some valuable items are not rare::A::The rare books are also valuable.
+15::If taxes rise, revenue may rise. Taxes rose. Therefore::Revenue rose::Revenue may rise::Revenue fell::Revenue must fall::B::Only a possible outcome is supported.
+16::No licensed drivers are under 16. Ali is a licensed driver. Therefore::Ali is at least 16::Ali is exactly 16::Ali is under 16::No conclusion::A::Contrapositive of the rule.
+17::All planets orbit stars. Earth is a planet. Therefore::Earth is a star::Earth orbits a star::Earth orbits every star::No conclusion::B::Direct deduction.
+18::If evidence is inadmissible, the judge excludes it. The judge did not exclude the evidence. Therefore::The evidence was admissible::The evidence was false::The evidence proved guilt::The judge was absent::A::Contrapositive.
+19::Some athletes are students. Some students are musicians. Therefore::Some athletes are musicians::No definite overlap follows::All musicians are athletes::All students are athletes::B::The student groups may differ.
+20::Every valid argument has true premises. Argument Z has a false premise. Therefore::Z is invalid::Z may still be valid::Z is sound::Z is deductive::B::Validity depends on structure, not premise truth.
+21::If P then Q. If Q then R. P. Therefore::Q only::R only::Q and R::Neither Q nor R::C::Modus ponens twice.
+22::No fish are mammals. Whales are mammals. Therefore::Whales are not fish::Whales are fish::Some fish are whales::No mammals are whales::A::Direct deduction.
+23::All elected officials are citizens. Some citizens vote. Therefore::Some voters are elected officials::No elected officials vote::No definite relationship between voters and officials::All citizens are officials::C::Insufficient overlap information.
+24::A study found correlation between X and Y. Therefore::X causes Y::Y causes X::Causation is not established::Both causes are known::C::Correlation alone does not prove causation.
+25::If a contract is signed, it is either valid or voidable. Contract K was signed. Therefore::K is valid::K is voidable::K is valid or voidable::K is void::C::Only the disjunction is guaranteed.
+26::Every rose is a flower. Some flowers fade quickly. Therefore::Some roses fade quickly::No roses fade quickly::Nothing definite about roses fading::All flowers are roses::C::The fading flowers may not be roses.
+27::No felons may vote in jurisdiction J. Omar votes in J. Therefore::Omar is not a felon::Omar is a felon::Omar is a citizen::Omar is over 18::A::Contrapositive.
+28::If rain falls, streets get wet. Streets are wet. Therefore::Rain fell::Rain may have fallen but not necessarily::Rain did not fall::Streets are dry::B::Affirming the consequent is invalid.
+29::All doctors completed medical school. Sara completed medical school. Therefore::Sara is a doctor::Sara may or may not be a doctor::Sara is not a doctor::All graduates are doctors::B::Necessary condition only.
+30::Some lawyers are politicians. All politicians are public speakers. Therefore::Some lawyers are public speakers::All lawyers are public speakers::No lawyers are speakers::Some speakers are not politicians::A::Those lawyer-politicians are speakers.
+31::A committee has exactly one chair. Lee is the chair. Therefore::No one else is chair::Everyone else is chair::Lee is secretary::Committee lacks a chair::A::Exactly one chair excludes others.
+32::If the alarm sounds, security responds. Security responded. Therefore::Alarm sounded::Alarm may have sounded::Alarm did not sound::No security exists::B::Response may have another cause.
+33::All mammals breathe air. Dolphins are mammals. Therefore::Dolphins breathe air::Dolphins are fish::All air-breathers are mammals::No conclusion::A::Direct deduction.
+34::No contracts without signatures are enforceable. Contract T is enforceable. Therefore::T has a signature::T lacks a signature::T is void::No conclusion::A::Contrapositive.
+35::Some artists are teachers. No teachers are minors. Therefore::Some artists are not minors::All artists are not minors::No artists are minors::Some minors are artists::A::The artist-teachers are not minors.
+36::If a statute conflicts with the constitution, the constitution prevails. A conflict exists. Therefore::The statute prevails::The constitution prevails::Neither prevails::Courts ignore both::B::Direct application.
+37::All birds have feathers. Penguins are birds. Therefore::Penguins have feathers::Penguins fly::All feathered animals are birds::No conclusion::A::Direct deduction.
+38::No weekdays are holidays. Monday is a weekday. Therefore::Monday is not a holiday::Monday is a holiday::All holidays are weekends::No conclusion::A::Direct deduction.
+39::If evidence is sufficient, prosecution may proceed. Evidence is sufficient. Therefore::Prosecution must proceed::Prosecution may proceed::Case is won::Defendant is guilty::B::May does not imply must.
+40::All seminars require registration. Mia registered. Therefore::Mia attended a seminar::Mia may have registered for something else::Mia taught a seminar::No seminars exist::B::Registration alone is insufficient.
+41::Some economists are professors. All professors are researchers. Therefore::Some economists are researchers::All economists are researchers::No economists are researchers::Some researchers are not professors::A::Economist-professors are researchers.
+42::If the battery is dead, the car will not start. The car started. Therefore::Battery is not dead::Battery is dead::Car is new::Fuel tank is full::A::Contrapositive.
+43::No valid passport is expired. This passport is expired. Therefore::It is not valid::It is valid::It was renewed::No conclusion::A::Direct deduction.
+44::Every triangle has three sides. Figure F is a triangle. Therefore::F has three sides::F has four sides::F is a square::No conclusion::A::Definition.
+45::If an applicant is admitted, a file exists. No file exists. Therefore::Applicant was not admitted::Applicant was admitted::Applicant withdrew::No conclusion::A::Contrapositive.
+46::Some employees work remotely. All remote workers use VPNs. Therefore::Some employees use VPNs::All employees use VPNs::No employees use VPNs::Some VPN users are not remote workers::A::Remote employees use VPNs.
+47::All appeals require a notice. Appeal A lacks notice. Therefore::A is not an appeal::A succeeds::A is valid::A was filed on time::A::Contrapositive.
+48::No cats are reptiles. Some pets are cats. Therefore::Some pets are not reptiles::All pets are reptiles::Some reptiles are cats::No pets are cats::A::Cat pets are not reptiles.
+49::If demand increases, price tends to rise. Demand increased. Therefore::Price definitely rose::Price tended to rise::Price fell::No effect is possible::B::Matches the stated tendency.
+50::Every precedent cited by the court was relevant. Case X was cited. Therefore::X was relevant::X was controlling::X was overturned::No conclusion::A::Direct deduction.
+51::All jurors were screened. Pat was a juror. Therefore::Pat was screened::Pat was excused::Pat voted guilty::No conclusion::A::Direct deduction.
+52::No sealed record is public. Record R is public. Therefore::R is not sealed::R is sealed::R is confidential::No conclusion::A::Contrapositive.
+53::If a witness lies, credibility decreases. Credibility decreased. Therefore::Witness lied::Witness may have lied::Witness told truth::No witness existed::B::Many causes could reduce credibility.
+54::Some cities are capitals. All capitals host government offices. Therefore::Some cities host government offices::All cities host offices::No cities host offices::Some offices are cities::A::Capital cities host offices.
+55::Every lease is a contract. Some contracts are oral. Therefore::Some leases are oral::No definite conclusion about leases being oral::All leases are oral::No leases are contracts::B::Oral contracts may not be leases.
+56::If a person is convicted, guilt was established. Kim was convicted. Therefore::Guilt was established::Kim is innocent::Appeal succeeded::No conclusion::A::Direct application.
+57::No mammals lay eggs, except monotremes. Platypuses are monotremes. Therefore::Platypuses may lay eggs::Platypuses cannot lay eggs::All mammals lay eggs::No conclusion::A::Exception permits egg-laying.
+58::All statutes are laws. Some laws are outdated. Therefore::Some statutes are outdated::No definite conclusion::All laws are statutes::No laws are outdated::B::Outdated laws may not be statutes.
+59::If P then Q. Not Q. Therefore::Not P::P::Q::Cannot determine::A::Modus tollens.
+60::Some candidates campaigned online. All online campaigners used social media. Therefore::Some candidates used social media::All candidates used social media::No candidates used social media::Some social media users were not candidates::A::Campaigning candidates used social media.
+61::All metals conduct electricity. Copper is a metal. Therefore::Copper conducts electricity::Copper is nonmetal::All conductors are metals::No conclusion::A::Direct deduction.
+62::No confidential memo is published. Memo M was published. Therefore::M is not confidential::M is confidential::M is inaccurate::No conclusion::A::Contrapositive.
+63::Every ranked player entered the tournament. Ava entered. Therefore::Ava was ranked::Ava may not have been ranked::Ava won::Ava lost::B::Necessary condition only.
+64::If the door is locked, the key is required. Key was not required. Therefore::Door was not locked::Door was locked::Door was open::No conclusion::A::Contrapositive.
+65::Some engineers are inventors. All inventors are creative. Therefore::Some engineers are creative::All engineers are creative::No engineers are creative::Some creative people are not inventors::A::Engineer-inventors are creative.
+66::All scholarships require applications. Scholarship S was awarded. Therefore::An application existed::No application existed::S was denied::No conclusion::A::Awarded scholarship met requirements.
+67::No undergraduate course requires a thesis. Course C requires a thesis. Therefore::C is not undergraduate::C is undergraduate::C is easy::No conclusion::A::Contrapositive.
+68::If an act is negligent, duty existed. The act was negligent. Therefore::Duty existed::Duty did not exist::Damages occurred::No conclusion::A::Direct implication.
+69::All oceans contain saltwater. The Atlantic is an ocean. Therefore::The Atlantic contains saltwater::The Atlantic is a lake::All saltwater bodies are oceans::No conclusion::A::Direct deduction.
+70::Some voters are independents. No independents are party officers. Therefore::Some voters are not party officers::All voters are independents::No voters are officers::Some officers are independents::A::Independent voters are not officers.
+71::Every filed motion has a docket number. Motion M lacks a docket number. Therefore::M was not filed::M was filed::M was granted::No conclusion::A::Contrapositive.
+72::If a product is defective, recall may occur. Recall occurred. Therefore::Product was defective::Product may have been defective::Product was safe::No conclusion::B::Recall can occur for other reasons.
+73::All senators are legislators. All legislators are officials. Therefore::All senators are officials::All officials are senators::Some senators are officials::No senators are officials::A::Transitive chain.
+74::No bicycles are motor vehicles. Vehicle V is a bicycle. Therefore::V is not a motor vehicle::V is a motor vehicle::V has no wheels::No conclusion::A::Direct deduction.
+75::Some authors are editors. Some editors are lawyers. Therefore::Some authors are lawyers::No definite conclusion::All authors are lawyers::No authors are lawyers::B::Overlap not guaranteed.
+76::If a claim is proven, evidence supports it. Claim C was proven. Therefore::Evidence supports C::Evidence opposes C::C is false::No conclusion::A::Direct implication.
+77::All certified accountants passed the exam. Nina passed the exam. Therefore::Nina is certified::Nina may not be certified::Nina failed::No conclusion::B::Passing is necessary, not sufficient.
+78::No expired license is valid. License L is valid. Therefore::L is not expired::L is expired::L was renewed today::No conclusion::A::Contrapositive.
+79::Some judges write books. All book-writing judges are scholars. Therefore::Some judges are scholars::All judges are scholars::No judges are scholars::Some scholars are not judges::A::Those judges who write books are scholars.
+80::If a merger is approved, regulators consent. Regulators did not consent. Therefore::Merger was not approved::Merger was approved::Merger occurred::No conclusion::A::Contrapositive.
+81::Every prime number greater than 2 is odd. 13 is prime. Therefore::13 is odd::13 is even::13 is composite::No conclusion::A::Direct rule application.
+82::All case briefs summarize facts. Brief B is a case brief. Therefore::B summarizes facts::B is a statute::B omits facts::No conclusion::A::Direct deduction.
+83::No public document is classified. Document D is classified. Therefore::D is not public::D is public::D is inaccurate::No conclusion::A::Direct deduction.
+84::If attendance exceeds capacity, entry is restricted. Entry was not restricted. Therefore::Attendance did not exceed capacity::Attendance exceeded capacity::Capacity increased::No conclusion::A::Contrapositive.
+85::Some managers supervise interns. All who supervise interns receive training. Therefore::Some managers receive training::All managers receive training::No managers receive training::Some trainees are not managers::A::Those managers receive training.
+86::All warranties are promises. Some promises are oral. Therefore::Some warranties are oral::No definite conclusion::All promises are warranties::No promises are oral::B::Oral promises may not be warranties.
+87::If the sample is contaminated, results are unreliable. Results are reliable. Therefore::Sample was not contaminated::Sample was contaminated::Testing stopped::No conclusion::A::Contrapositive.
+88::No deserts receive heavy rainfall. Region R receives heavy rainfall. Therefore::R is not a desert::R is a desert::R is tropical::No conclusion::A::Direct deduction.
+89::Every licensed physician completed residency. Dr. Z is licensed. Therefore::Dr. Z completed residency::Dr. Z teaches residency::Dr. Z is retired::No conclusion::A::Direct deduction.
+90::Some stocks pay dividends. All dividend-paying stocks attract income investors. Therefore::Some stocks attract income investors::All stocks attract income investors::No stocks attract investors::Some investors are stocks::A::Dividend stocks attract such investors.
+91::All constitutional amendments require ratification. Amendment A was ratified. Therefore::A is constitutional amendment::A may not be an amendment::A was proposed::No conclusion::B::Ratification alone doesn't identify it.
+92::If a student graduates, degree requirements were met. Sam graduated. Therefore::Requirements were met::Requirements were not met::Sam honors student::No conclusion::A::Direct implication.
+93::No anonymous source is fully verified. Source S is fully verified. Therefore::S is not anonymous::S is anonymous::S is unreliable::No conclusion::A::Contrapositive.
+94::Some volunteers are coordinators. All coordinators attend meetings. Therefore::Some volunteers attend meetings::All volunteers attend meetings::No volunteers attend meetings::Some attendees are not coordinators::A::Volunteer coordinators attend meetings.
+95::Every valid will is signed. Will W is unsigned. Therefore::W is not valid::W is valid::W is probated::No conclusion::A::Contrapositive.
+96::If legislation passes, a majority voted yes. Legislation passed. Therefore::Majority voted yes::Vote was unanimous::No majority existed::No conclusion::A::Direct implication.
+97::All mammals are animals. All dogs are mammals. Therefore::All dogs are animals::All animals are dogs::Some dogs are not animals::No dogs are mammals::A::Transitive reasoning.
+98::No encrypted file is readable without a key. File F is readable without a key. Therefore::F is not encrypted::F is encrypted::F is deleted::No conclusion::A::Contrapositive.
+99::Some researchers publish articles. All article publishers undergo review. Therefore::Some researchers undergo review::All researchers undergo review::No researchers undergo review::Some reviewers are researchers::A::Publishing researchers undergo review.
+100::If a conclusion follows necessarily from premises, the argument is deductively valid. Argument X's conclusion follows necessarily from its premises. Therefore::X is deductively valid::X is unsound::X has true premises::No conclusion::A::This is the definition of deductive validity.
